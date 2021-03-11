@@ -1,0 +1,36 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OVERONE</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel = "stylesheet" href="{%  static 'static/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <span class="title">Магазин ещё закрыт</span>
+                <br>
+                <span class="title">Оставляйте email для рассылки:</span>
+                <div class="form-win">
+                    <form action="" method="post"> {% csrf_token %}
+                        <span>Name <input type="text"></span>
+                        <span>e-mail <input type="text"></span>
+                        <br>
+                        <button type="submit" class="btn btn-primary" >Отправить</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

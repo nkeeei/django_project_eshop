@@ -1,0 +1,17 @@
+.title{
+    font-family: Railway;
+    font-size: 34px;
+    color: #454545;
+    text-align: center;
+}
+
+.form-win{
+    border: 2px solid rgba(69, 69, 69, 1);
+    padding: 20px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.form-win span{
+    display: block;
+    padding: 10px 30px;
+}
